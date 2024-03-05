@@ -1,90 +1,90 @@
-*{
-  margin:0px;
-  padding: 0px;
-  box-sizing: border-box;
-  background-color: rgb(255, 255, 255);
-}
-
-
-  .box1{
-   background-color: green;
-   width:350px;
-   height:auto;
-  }
-  
-  #box1 h1,#box2 h1,#box3 h1{
-    color: black;
-    font-size: 22px;
-    margin: 0px;
-    padding: 0px 6px;
-  }
-  
-  
-  #box1 p,#box2 p,#box3 p{
-    color:black;
-    font-size: 13px;
-    margin: 20px 0px;
-    padding:0px 10px;
-  }
-  
-
-  #box1 button{
-    background-color: white;
-    color: black;
-    padding: 10px 20px;
-    font-size: 16px;
-    border-radius:20px;
-    font-weight: bolder;
-  }
-  #box2{
-  background-color: rgb(255, 255, 255);
-  border-radius: 12px;
-  padding: 20px;
+.box1{
   width: 420px;
-  height: 300px;
-  border:1px solid black;
-  display: inline-block;
-  }
-
-  #box2 img{
-    width:50px;
-    height:auto;
-    margin: 10px;
-  }
-
-  #box2 hr {
-    margin: 10px 0px;
+  height:350px;
+  margin: 20px 50px;
+  background-color: rgba(16, 203, 122, 0.737);
+  padding:35px 40px 0px;
+  border-radius:20px;
+}
+.box1-btn{
+  border-radius: 15px;
+  padding:10px 40px;
 }
 
+.box2{
+background-color: rgb(255, 255, 255);
+border-radius: 12px;
+padding: 20px;
+width: 420px;
+height: 260px;
+border:2px solid rgb(235, 225, 225);
+margin:50px;
+}
+
+.box2 img{
+  width:50px;
+  height:auto;
+  margin: 10px;
+  padding-right:100px;
+}
+.box2 a{
+text-decoration: none;
+}
 #box3{
-  border:1px solid black;
-  width:353px;
-  height:600px;
-  border-radius:4px;
-  margin: auto 50px;
+border:1px solid rgb(235, 225, 225);
+width:353px;
+height:630px;
+border-radius:4px;
+margin: auto 50px;
 }
 
 #box3 img{
-  width:350px;
-  height:auto;
+width:100%;
+height:auto;
 }
 
 #box3 #lock{
-    width:20px;
+  width:25px;
 }
 
 #box3 span{
-  font-size: 10px;
-  font-weight: bolder;
-  margin-bottom:2px;
+font-size: 10px;
+font-weight: bolder;
+margin-bottom:2px;
 }
 
 
-#box3 button{
-  color:blue;
-  padding:15px;
-  border-radius:10px;
-  margin: 0px 10px;
-  background-color: rgb(252, 252, 252);
+.box3-btn{
+color:blue;
+padding:5px 40px;
+background-color: rgb(252, 252, 252);
+box-sizing: border-box;
+border:1px solid rgb(244, 241, 241)
 }
-  
+
+.box4{
+margin:40px;
+border:3px solid rgb(244, 241, 241);
+width:450px;
+text-align: center;
+}
+.inp{
+padding-bottom:8px;
+width:100%;
+border-radius: 8px;
+border:1px solid rgb(235, 225, 225);
+box-sizing: border-box;
+}
+
+.box4-btn{
+background-color: black;
+color:#fff;
+padding:5px 40px;
+border-radius: 12px;
+margin:20px;
+}
+.box4 a{
+color:black;
+font-weight: bolder;
+}
+ 
