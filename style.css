@@ -1,0 +1,90 @@
+*{
+  margin:0px;
+  padding: 0px;
+  box-sizing: border-box;
+  background-color: rgb(255, 255, 255);
+}
+
+
+  .box1{
+   background-color: green;
+   width:350px;
+   height:auto;
+  }
+  
+  #box1 h1,#box2 h1,#box3 h1{
+    color: black;
+    font-size: 22px;
+    margin: 0px;
+    padding: 0px 6px;
+  }
+  
+  
+  #box1 p,#box2 p,#box3 p{
+    color:black;
+    font-size: 13px;
+    margin: 20px 0px;
+    padding:0px 10px;
+  }
+  
+
+  #box1 button{
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius:20px;
+    font-weight: bolder;
+  }
+  #box2{
+  background-color: rgb(255, 255, 255);
+  border-radius: 12px;
+  padding: 20px;
+  width: 420px;
+  height: 300px;
+  border:1px solid black;
+  display: inline-block;
+  }
+
+  #box2 img{
+    width:50px;
+    height:auto;
+    margin: 10px;
+  }
+
+  #box2 hr {
+    margin: 10px 0px;
+}
+
+#box3{
+  border:1px solid black;
+  width:353px;
+  height:600px;
+  border-radius:4px;
+  margin: auto 50px;
+}
+
+#box3 img{
+  width:350px;
+  height:auto;
+}
+
+#box3 #lock{
+    width:20px;
+}
+
+#box3 span{
+  font-size: 10px;
+  font-weight: bolder;
+  margin-bottom:2px;
+}
+
+
+#box3 button{
+  color:blue;
+  padding:15px;
+  border-radius:10px;
+  margin: 0px 10px;
+  background-color: rgb(252, 252, 252);
+}
+  
